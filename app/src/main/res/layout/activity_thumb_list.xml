@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@android:color/white"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_48sdp"
+        android:background="@drawable/ic_topbar">
+
+        <ImageView
+            android:id="@+id/btnBack"
+            android:layout_width="@dimen/_18sdp"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="@dimen/_15sdp"
+            android:src="@drawable/back"
+            android:tint="@color/header_text_color"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/title_select_frame"
+            android:textColor="@color/header_text_color"
+            android:textSize="@dimen/_14sdp" />
+
+       <include layout="@layout/filter_action_bar"
+           android:layout_alignParentRight="true"
+           android:layout_width="wrap_content"
+           android:layout_height="match_parent"
+           android:layout_marginRight="@dimen/_10sdp"/>
+
+    </RelativeLayout>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_below="@+id/toolbar"
+        android:layout_above="@+id/banner_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:scrollbars="vertical"/>
+
+    <include layout="@layout/ad_banner_lay"/>
+</RelativeLayout>

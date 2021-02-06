@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_bg"
+    tools:context=".StartActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.7">
+
+            <ImageView
+                android:id="@+id/mainBG"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                tools:src="@drawable/bg_main" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentBottom="true"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.15" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.84"
+                    android:gravity="bottom"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/pipImg"
+                        android:layout_width="@dimen/_210sdp"
+                        android:layout_height="@dimen/_150sdp"
+                        tools:src="@drawable/banner"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.01" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/menuBtn"
+                android:layout_width="@dimen/_27sdp"
+                android:layout_height="@dimen/_27sdp"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/home_menu_btn"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:padding="@dimen/_5sdp"
+                android:tint="@color/btn_icon_color"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:src="@drawable/h_menu" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.3"
+            android:gravity="center"
+            android:padding="@dimen/_7sdp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="3.5"
+                    android:gravity="center">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/clgMakerBtn"
+                            android:layout_width="@dimen/_47sdp"
+                            android:layout_height="@dimen/_47sdp"
+                            android:background="@drawable/home_btn"
+                            android:padding="@dimen/_8sdp"
+                            android:src="@drawable/h_layout"
+                            android:tint="@color/btn_icon_color" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_7sdp"
+                            android:gravity="center"
+                            android:text="@string/photo_collage"
+                            android:textColor="@color/btn_text_color"
+                            android:textSize="@dimen/_10sdp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/photoEditBtn"
+                            android:layout_width="@dimen/_47sdp"
+                            android:layout_height="@dimen/_47sdp"
+                            android:background="@drawable/home_btn"
+                            android:padding="@dimen/_8sdp"
+                            android:src="@drawable/h_editor"
+                            android:tint="@color/btn_icon_color" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_7sdp"
+                            android:gravity="center"
+                            android:text="@string/photo_editor"
+                            android:textColor="@color/btn_text_color"
+                            android:textSize="@dimen/_10sdp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/pipMakerBtn"
+                            android:layout_width="@dimen/_47sdp"
+                            android:layout_height="@dimen/_47sdp"
+                            android:background="@drawable/home_btn"
+                            android:padding="@dimen/_8sdp"
+                            android:src="@drawable/h_pip"
+                            android:tint="@color/btn_icon_color" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_7sdp"
+                            android:gravity="center"
+                            android:text="@string/pip_collage"
+                            android:textColor="@color/btn_text_color"
+                            android:textSize="@dimen/_10sdp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="3.5"
+                    android:gravity="center"
+                    android:layout_marginTop="@dimen/_12sdp">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/shapeBtn"
+                            android:layout_width="@dimen/_47sdp"
+                            android:layout_height="@dimen/_47sdp"
+                            android:background="@drawable/home_btn"
+                            android:padding="@dimen/_8sdp"
+                            android:src="@drawable/h_shape"
+                            android:tint="@color/btn_icon_color" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_7sdp"
+                            android:gravity="center"
+                            android:text="@string/body_shape"
+                            android:textColor="@color/btn_text_color"
+                            android:textSize="@dimen/_10sdp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/scrapBtn"
+                            android:layout_width="@dimen/_47sdp"
+                            android:layout_height="@dimen/_47sdp"
+                            android:background="@drawable/home_btn"
+                            android:padding="@dimen/_8sdp"
+                            android:src="@drawable/h_scrap"
+                            android:tint="@color/btn_icon_color" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_7sdp"
+                            android:gravity="center"
+                            android:text="@string/scrap_book"
+                            android:textColor="@color/btn_text_color"
+                            android:textSize="@dimen/_10sdp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/albumBtn"
+                            android:layout_width="@dimen/_47sdp"
+                            android:layout_height="@dimen/_47sdp"
+                            android:background="@drawable/home_btn"
+                            android:padding="@dimen/_8sdp"
+                            android:src="@drawable/h_creation"
+                            android:tint="@color/btn_icon_color" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_7sdp"
+                            android:gravity="center"
+                            android:text="@string/my_creation"
+                            android:textColor="@color/btn_text_color"
+                            android:textSize="@dimen/_10sdp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

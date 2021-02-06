@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Mukesh_GliterLightEffects</string>
+
+
+
+    <string name="no_images">no found the image</string>
+    <string name="images">%d images</string>
+    <string name="save">Save</string>
+    <string name="apply">Apply</string>
+
+    <string name="stickers">stickers</string>
+    <string name="filter">filter</string>
+    <string name="crop">crop</string>
+    <string name="rotate">rotate</string>
+    <string name="text">text</string>
+    <string name="edit">edit</string>
+
+
+
+    <string name="materialcolorpicker__app_name">Android Material Color Picker Dialog</string>
+    <string name="materialcolorpicker__descLib">Material Color Picker Dialog</string>
+    <string name="materialcolorpicker__errHex">Hex Code Format incorrect</string>
+    <string name="materialcolorpicker__inputColor">Color:</string>
+    <string name="materialcolorpicker__btnSelectColor">Select</string>
+    <string name="saving_image">Creating...</string>
+    <string name="input_hint">input text ...</string>
+
+    <string name="no_choose">please choose a image for edit</string>
+    <string name="auto_newline">AutoNewline</string>
+    <string name="save_error">Save error!</string>
+    <string name="handing">loading...</string>
+
+    <string-array name="filters">
+        <item>Origin</item>
+        <item>Soft</item>
+        <item>Black</item>
+        <item>Classic</item>
+        <item>Gorgeous</item>
+        <item>Retro</item>
+        <item>Grace</item>
+        <item>Film</item>
+        <item>Memory</item>
+        <item>Yogurt</item>
+        <item>Fleeting</item>
+        <item>Shine</item>
+        <item>Mosaic</item>
+    </string-array>
+
+    <string name="more">more</string>
+    <string name="exit_without_save">The edited image is not saved. Do you want to exit? </string>
+    <string name="confirm">confirm</string>
+    <string name="cancel">cancel</string>
+
+    <string name="beauty">Beauty</string>
+    <string name="smooth">Smooth</string>
+    <string name="white_skin">White Skin</string>
+</resources>

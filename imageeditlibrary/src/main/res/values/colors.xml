@@ -1,0 +1,27 @@
+<resources>
+    <color name="white">#ffffff</color>
+    <color name="main_backgroud">#333333</color>
+    <color name="materialcolorpicker__white">#ffffff</color>
+    <color name="materialcolorpicker__red">#f44336</color>
+    <color name="materialcolorpicker__green">#4caf50</color>
+    <color name="materialcolorpicker__blue">#2196f3</color>
+    <color name="materialcolorpicker__grey">#b3b3b3</color>
+    <color name="materialcolorpicker__lightgrey">#d9d9d9</color>
+    <color name="materialcolorpicker__dribble">#ffffff</color>
+    <color name="materialcolorpicker__dribbledark">#ffffff</color>
+    <color name="materialcolorpicker__black">#000000</color>
+    <color name="materialcolorpicker__dialogcolor">#009688</color>
+    <color name="hint_foreground_material_light">#00000000</color>
+    <color name="hint_foreground_material_dark">#00000000</color>
+
+
+    <!--UI Colors-->
+    <color name="main_bg_start_color">#02847f</color>
+    <color name="main_bg_end_color">#01514e</color>
+    <color name="home_btn_color">#ffffff</color>
+    <color name="btn_text_color">#ffffff</color>
+    <color name="header_text_color">#ffffff</color>
+    <color name="header_bg_start_color">#02847f</color>
+    <color name="header_bg_end_color">#01514e</color>
+    <color name="btn_icon_color">#FBAA27</color>
+</resources>

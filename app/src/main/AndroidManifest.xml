@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.kessi.photopipcollagemaker">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:supportsRtl="false"
+        android:name="com.kessi.photopipcollagemaker.MyApplication"
+        android:largeHeap="true"
+        android:hardwareAccelerated="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+
+        <activity android:name=".shape.BodyShapeEditor"
+            android:screenOrientation="nosensor"/>
+
+        <activity android:name=".shape.SlimActivity"
+            android:screenOrientation="nosensor"/>
+
+        <activity android:name=".shape.WaistActivity"
+            android:screenOrientation="nosensor"/>
+
+        <activity android:name=".shape.HipActivity"
+            android:screenOrientation="nosensor"/>
+
+        <activity android:name=".shape.ChestActivity"
+            android:screenOrientation="nosensor"/>
+
+        <activity android:name=".shape.FaceActivity"
+            android:screenOrientation="nosensor"/>
+
+        <activity android:name="com.kessi.photopipcollagemaker.PrivacyActivity"
+            android:screenOrientation="nosensor"/>
+
+        <activity android:name="com.xinlan.imageeditlibrary.editimage.EditImageActivity"
+            android:screenOrientation="nosensor"/>
+
+        <activity android:name="com.kessi.photopipcollagemaker.ShareActivity"
+            android:screenOrientation="nosensor"/>
+
+        <activity
+            android:name="com.kessi.photopipcollagemaker.gallery.CustomGalleryActivity"
+            android:screenOrientation="nosensor" />
+
+        <activity
+            android:name="com.kessi.photopipcollagemaker.Activities.ScrapBookActivity"
+            android:screenOrientation="nosensor" />
+
+        <activity
+            android:name="com.kessi.photopipcollagemaker.Activities.ThumbListActivity"
+            android:screenOrientation="nosensor" />
+
+        <activity
+            android:name="com.kessi.photopipcollagemaker.Activities.CollageMakerlActivity"
+            android:screenOrientation="nosensor" />
+
+        <activity
+            android:name="com.kessi.photopipcollagemaker.Activities.PIPActivity"
+            android:screenOrientation="nosensor" />
+
+        <activity
+            android:name="com.kessi.photopipcollagemaker.CreationActivity"
+            android:screenOrientation="nosensor" />
+
+        <activity
+            android:name="com.kessi.photopipcollagemaker.Activities.AddTextItemActivity"
+            android:screenOrientation="nosensor" />
+
+        <activity android:name="com.kessi.photopipcollagemaker.SplashActivity"
+            android:screenOrientation="nosensor">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.kessi.photopipcollagemaker.StartActivity"
+            android:screenOrientation="nosensor"/>
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="@string/admob_app_id" />
+
+        <activity
+            android:name="com.facebook.ads.AudienceNetworkActivity"
+            android:hardwareAccelerated="true" />
+    </application>
+
+</manifest>

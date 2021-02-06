@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/main_bg_start_color</color>
+    <color name="colorPrimaryDark">#111111</color>
+    <color name="colorAccent">@color/main_bg_start_color</color>
+
+    <color name="accentColor">#FF4081</color>
+    <color name="rippleColor">#ff80ab</color>
+    <color name="accentColor_pressed">#f50057</color>
+    <color name="primaryColorLight">#0f0f0f</color>
+    <color name="textColor">#FFFFFF</color>
+    <color name="textColorPrimary">#212121</color>
+    <color name="textColorSecondary">#727272</color>
+    <color name="windowBackgroundColor">#0f0f0f</color>
+    <color name="navigationBarColor">#0f0f0f</color> <!-- #303f9f -->
+    <color name="nav_toolbar">#EABCA2</color>
+    <color name="text_hint">#A0A0A0</color>
+    <color name="bg_frame">#cccccc</color>
+    <color name="menu_color">#009531</color>
+    <color name="actionbar_text">#ffffff</color>
+    <color name="bg_action_bar">#A4153F</color>
+    <color name="grid_state_pressed">#1Affffff</color>
+    <color name="grid_state_focused">#80000000</color>
+    <color name="border_view_background">#AAAAAA</color>
+    <color name="border_view_foreground">#A6033E</color>
+    <color name="btn_hover">#ffffee</color>
+    <color name="btn_bg">#ffffff</color>
+    <color name="color_chooser_circle_border">#99ffffff</color>
+    <color name="color_chooser_cirlce">#E3B3C5</color>
+    <color name="bottom_bg_view_topbar">#FFF200</color>
+    <color name="backgroundColor">#E8E8E0</color>
+    <color name="backgroundColorPress">#DBDBD3</color>
+    <color name="red">#FF3B00</color>
+    <color name="red_press">#990000</color>
+    <color name="dark_gray">#4C535B</color>
+    <color name="dark_gray_press">#ff7e8a97</color>
+    <color name="slide_menu_bg">#eeeeee</color>
+    <color name="slide_menu_text">#1f1f1f</color>
+    <color name="slide_menu_icon">#6d6d6d</color>
+    <color name="common_text_color">#6d6d6d</color>
+    <color name="common_background_color">#eeeeee</color>
+    
+    
+    <!--UI Colors-->
+    <color name="splash_bg_color">#ffffff</color>
+    <color name="splash_text_color">#311875</color>
+    <color name="main_bg_start_color">#785ebd</color>
+    <color name="main_bg_end_color">#311875</color>
+    <color name="home_btn_color">#ffffff</color>
+    <color name="btn_text_color">#ffffff</color>
+    <color name="header_text_color">#ffffff</color>
+    <color name="header_bg_start_color">#785ebd</color>
+    <color name="header_bg_end_color">#311875</color>
+<!--    <color name="btn_icon_color">#FBAA27</color>-->
+    <color name="btn_icon_color">#685fd4</color>
+
+
+
+    <color name="btn_icon_detect">#685fd4</color>
+</resources>

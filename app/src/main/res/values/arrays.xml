@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="array_sort_value">
+        <item>Name</item>
+        <item>Size</item>
+        <item>Date</item>
+    </array>
+    <string-array name="frame_count">
+        <item>@string/all</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+
+    <string-array name="color_array">
+        <item>#fbaa27</item>
+        <item>#e3a07e</item>
+        <item>#a2d376</item>
+        <item>#e37e7e</item>
+        <item>#76d399</item>
+        <item>#768cd3</item>
+        <item>#ffadad</item>
+        <item>#ffd6a5</item>
+        <item>#FFFFFF</item>
+        <item>#000000</item>
+        <item>#fdffb6</item>
+        <item>#caffbf</item>
+        <item>#9bf6ff</item>
+        <item>#a0c4ff</item>
+        <item>#bdb2ff</item>
+        <item>#ffc6ff</item>
+        <item>#f9dcc4</item>
+        <item>#ee5b61</item>
+    </string-array>
+</resources>

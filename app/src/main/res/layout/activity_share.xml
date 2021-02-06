@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context=".ShareActivity">
+    <RelativeLayout
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_48sdp"
+        android:background="@drawable/ic_topbar">
+
+        <ImageView
+            android:id="@+id/btnBack"
+            android:layout_width="@dimen/_18sdp"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:tint="@color/header_text_color"
+            android:layout_marginLeft="@dimen/_15sdp"
+            android:src="@drawable/back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Share"
+            android:textColor="@color/header_text_color"
+            android:textSize="@dimen/_14sdp" />
+
+        <ImageView
+            android:id="@+id/btnShare"
+            android:layout_centerVertical="true"
+            android:layout_width="@dimen/_18sdp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="@dimen/_15sdp"
+            android:padding="@dimen/_1sdp"
+            android:layout_toLeftOf="@+id/btnDelete"
+            android:tint="@color/header_text_color"
+            android:src="@drawable/share_img"/>
+
+        <ImageView
+            android:id="@+id/btnDelete"
+            android:layout_centerVertical="true"
+            android:layout_width="@dimen/_18sdp"
+            android:padding="@dimen/_1sdp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/_15sdp"
+            android:layout_height="match_parent"
+            android:tint="@color/header_text_color"
+            android:src="@drawable/delete_img"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/banner_container"
+        android:layout_below="@+id/toolbar"
+        android:gravity="center"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:weightSum="1">
+
+        <ImageView
+            android:id="@+id/myImg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    <include layout="@layout/ad_banner_lay"/>
+
+</RelativeLayout>

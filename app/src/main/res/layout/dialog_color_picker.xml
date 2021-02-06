@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:background="@android:color/white"
+              android:orientation="vertical"
+              android:paddingLeft="5dp"
+              android:paddingRight="5dp">
+
+    <com.kessi.photopipcollagemaker.colorpicker.ColorPickerView
+        android:id="@+id/color_picker_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layerType="software"
+        android:tag="portrait"/>
+
+    <!--<LinearLayout
+        android:id="@+id/text_hex_wrapper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="6dp"
+        android:orientation="horizontal"
+        android:layout_marginRight="6dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="press_color_to_apply"
+            android:textColor="@color/btn_icon_color"
+            android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+        <EditText
+            android:id="@+id/hex_val"
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="HEX"
+            android:imeOptions="actionDone"
+            android:inputType="textCapCharacters"
+            android:maxLength="7"
+            android:singleLine="true"
+            android:visibility="gone">
+        </EditText>
+    </LinearLayout>-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_7sdp"
+        android:orientation="horizontal">
+
+        <!-- <com.kessi.photopipcollagemaker.colorpicker.ColorPickerPanelView-->
+        <!--<com.kessi.photopipcollagemaker.colorpicker.ColorPickerPanelView-->
+        <TextView
+            android:id="@+id/old_color_panel"
+            android:layout_width="0px"
+            android:layout_height="@dimen/_30sdp"
+            android:background="@drawable/ic_topbar"
+            android:gravity="center"
+            android:text="Cancel"
+            android:textColor="@color/header_text_color"
+            android:textSize="@dimen/_14sdp"
+            android:layout_weight="0.4" />
+        <TextView
+            android:id="@+id/new_color_panel"
+            android:layout_width="0px"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_weight="0.4"
+            android:background="@drawable/ic_topbar"
+            android:gravity="center"
+            android:text="Ok"
+            android:textColor="@color/header_text_color"
+            android:textSize="@dimen/_14sdp" />
+
+    </LinearLayout>
+
+</LinearLayout>
