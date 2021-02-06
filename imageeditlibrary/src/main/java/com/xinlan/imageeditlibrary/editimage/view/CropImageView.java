@@ -11,7 +11,7 @@ import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.view.View;
 
-import com.kessi.imageeditlibrary.R;
+import com.mobiledevteam.imageeditlibrary.R;
 import com.xinlan.imageeditlibrary.editimage.utils.PaintUtil;
 
 public class CropImageView extends View {

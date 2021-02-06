@@ -17,7 +17,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.nostra13.universalimageloader.core.DisplayImageOptions;
 import com.nostra13.universalimageloader.core.ImageLoader;
-import com.kessi.imageeditlibrary.R;
+import com.mobiledevteam.imageeditlibrary.R;
 import com.xinlan.imageeditlibrary.editimage.fragment.StickerFragment;
 
 

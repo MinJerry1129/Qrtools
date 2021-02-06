@@ -8,7 +8,7 @@ import android.graphics.Matrix;
 import android.os.AsyncTask;
 import android.os.Build;
 
-import com.kessi.imageeditlibrary.R;
+import com.mobiledevteam.imageeditlibrary.R;
 import com.xinlan.imageeditlibrary.editimage.EditImageActivity;
 import com.xinlan.imageeditlibrary.editimage.utils.Matrix3;
 

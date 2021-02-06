@@ -58,13 +58,13 @@
             android:adjustViewBounds="true"
             android:scaleType="centerInside" />
 
-        <com.kessi.photopipcollagemaker.shape.ViewOval
+        <com.mobiledevteam.qrtools.shape.ViewOval
             android:id="@+id/ovalView1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:adjustViewBounds="true" />
 
-        <com.kessi.photopipcollagemaker.shape.ViewOval
+        <com.mobiledevteam.qrtools.shape.ViewOval
             android:id="@+id/ovalView2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

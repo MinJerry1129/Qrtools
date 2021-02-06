@@ -14,7 +14,7 @@ import android.widget.RelativeLayout;
 import android.widget.SeekBar;
 
 import com.xinlan.imageeditlibrary.BaseActivity;
-import com.kessi.imageeditlibrary.R;
+import com.mobiledevteam.imageeditlibrary.R;
 import com.xinlan.imageeditlibrary.editimage.EditImageActivity;
 import com.xinlan.imageeditlibrary.editimage.ModuleConfig;
 import com.xinlan.imageeditlibrary.editimage.fliter.PhotoProcessing;

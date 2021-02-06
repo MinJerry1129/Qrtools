@@ -23,7 +23,7 @@
             android:layout_weight="1"
             android:background="@android:color/transparent" >
 
-            <com.kessi.photopipcollagemaker.Activities.custom.FrameImageView
+            <com.mobiledevteam.qrtools.Activities.custom.FrameImageView
                 android:id="@+id/imageView1"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -47,7 +47,7 @@
             android:layout_weight="1"
             android:background="@android:color/transparent" >
 
-            <com.kessi.photopipcollagemaker.Activities.custom.FrameImageView
+            <com.mobiledevteam.qrtools.Activities.custom.FrameImageView
                 android:id="@+id/imageView2"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -84,7 +84,7 @@
             android:layout_weight="1"
             android:background="@android:color/transparent" >
 
-            <com.kessi.photopipcollagemaker.Activities.custom.FrameImageView
+            <com.mobiledevteam.qrtools.Activities.custom.FrameImageView
                 android:id="@+id/imageView3"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -108,7 +108,7 @@
             android:layout_weight="1"
             android:background="@android:color/transparent" >
 
-            <com.kessi.photopipcollagemaker.Activities.custom.FrameImageView
+            <com.mobiledevteam.qrtools.Activities.custom.FrameImageView
                 android:id="@+id/imageView4"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"

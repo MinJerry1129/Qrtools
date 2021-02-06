@@ -12,7 +12,7 @@ import android.widget.EditText;
 import android.widget.SeekBar;
 import android.widget.TextView;
 
-import com.kessi.imageeditlibrary.R;
+import com.mobiledevteam.imageeditlibrary.R;
 
 public class ColorPicker extends Dialog implements SeekBar.OnSeekBarChangeListener {
     private static final String COLOR_STRING_FORMAT = "#%02x%02x%02x";

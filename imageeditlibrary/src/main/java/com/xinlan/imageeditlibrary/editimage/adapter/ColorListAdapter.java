@@ -7,7 +7,7 @@ import android.widget.RelativeLayout;
 
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.kessi.imageeditlibrary.R;
+import com.mobiledevteam.imageeditlibrary.R;
 import com.xinlan.imageeditlibrary.editimage.fragment.PaintFragment;
 
 public class ColorListAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {

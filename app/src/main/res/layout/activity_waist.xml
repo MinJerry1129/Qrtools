@@ -55,7 +55,7 @@
             android:adjustViewBounds="true"
             android:scaleType="centerInside" />
 
-        <com.kessi.photopipcollagemaker.shape.ViewWaist
+        <com.mobiledevteam.qrtools.shape.ViewWaist
             android:id="@+id/waistView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

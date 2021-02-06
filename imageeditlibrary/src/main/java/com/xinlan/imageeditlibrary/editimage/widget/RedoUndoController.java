@@ -4,7 +4,7 @@ import android.graphics.Bitmap;
 import android.view.View;
 import android.widget.LinearLayout;
 
-import com.kessi.imageeditlibrary.R;
+import com.mobiledevteam.imageeditlibrary.R;
 import com.xinlan.imageeditlibrary.editimage.EditImageActivity;
 
 public class RedoUndoController implements View.OnClickListener {

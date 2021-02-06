@@ -7,7 +7,7 @@
               android:paddingLeft="5dp"
               android:paddingRight="5dp">
 
-    <com.kessi.photopipcollagemaker.colorpicker.ColorPickerView
+    <com.mobiledevteam.qrtools.colorpicker.ColorPickerView
         android:id="@+id/color_picker_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

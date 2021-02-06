@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.kessi.photopipcollagemaker">
+    package="com.mobiledevteam.qrtools">
 
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
@@ -14,68 +14,68 @@
         android:label="@string/app_name"
         android:requestLegacyExternalStorage="true"
         android:supportsRtl="false"
-        android:name="com.kessi.photopipcollagemaker.MyApplication"
+        android:name="com.mobiledevteam.qrtools.MyApplication"
         android:largeHeap="true"
         android:hardwareAccelerated="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
 
-        <activity android:name=".shape.BodyShapeEditor"
+        <activity android:name="com.mobiledevteam.qrtools.shape.BodyShapeEditor"
             android:screenOrientation="nosensor"/>
 
-        <activity android:name=".shape.SlimActivity"
+        <activity android:name="com.mobiledevteam.qrtools.shape.SlimActivity"
             android:screenOrientation="nosensor"/>
 
-        <activity android:name=".shape.WaistActivity"
+        <activity android:name="com.mobiledevteam.qrtools.shape.WaistActivity"
             android:screenOrientation="nosensor"/>
 
-        <activity android:name=".shape.HipActivity"
+        <activity android:name="com.mobiledevteam.qrtools.shape.HipActivity"
             android:screenOrientation="nosensor"/>
 
-        <activity android:name=".shape.ChestActivity"
+        <activity android:name="com.mobiledevteam.qrtools.shape.ChestActivity"
             android:screenOrientation="nosensor"/>
 
-        <activity android:name=".shape.FaceActivity"
+        <activity android:name="com.mobiledevteam.qrtools.shape.FaceActivity"
             android:screenOrientation="nosensor"/>
 
-        <activity android:name="com.kessi.photopipcollagemaker.PrivacyActivity"
+        <activity android:name="com.mobiledevteam.qrtools.PrivacyActivity"
             android:screenOrientation="nosensor"/>
 
         <activity android:name="com.xinlan.imageeditlibrary.editimage.EditImageActivity"
             android:screenOrientation="nosensor"/>
 
-        <activity android:name="com.kessi.photopipcollagemaker.ShareActivity"
+        <activity android:name="com.mobiledevteam.qrtools.ShareActivity"
             android:screenOrientation="nosensor"/>
 
         <activity
-            android:name="com.kessi.photopipcollagemaker.gallery.CustomGalleryActivity"
+            android:name="com.mobiledevteam.qrtools.gallery.CustomGalleryActivity"
             android:screenOrientation="nosensor" />
 
         <activity
-            android:name="com.kessi.photopipcollagemaker.Activities.ScrapBookActivity"
+            android:name="com.mobiledevteam.qrtools.Activities.ScrapBookActivity"
             android:screenOrientation="nosensor" />
 
         <activity
-            android:name="com.kessi.photopipcollagemaker.Activities.ThumbListActivity"
+            android:name="com.mobiledevteam.qrtools.Activities.ThumbListActivity"
             android:screenOrientation="nosensor" />
 
         <activity
-            android:name="com.kessi.photopipcollagemaker.Activities.CollageMakerlActivity"
+            android:name="com.mobiledevteam.qrtools.Activities.CollageMakerlActivity"
             android:screenOrientation="nosensor" />
 
         <activity
-            android:name="com.kessi.photopipcollagemaker.Activities.PIPActivity"
+            android:name="com.mobiledevteam.qrtools.Activities.PIPActivity"
             android:screenOrientation="nosensor" />
 
         <activity
-            android:name="com.kessi.photopipcollagemaker.CreationActivity"
+            android:name="com.mobiledevteam.qrtools.CreationActivity"
             android:screenOrientation="nosensor" />
 
         <activity
-            android:name="com.kessi.photopipcollagemaker.Activities.AddTextItemActivity"
+            android:name="com.mobiledevteam.qrtools.Activities.AddTextItemActivity"
             android:screenOrientation="nosensor" />
 
-        <activity android:name="com.kessi.photopipcollagemaker.SplashActivity"
+        <activity android:name="com.mobiledevteam.qrtools.SplashActivity"
             android:screenOrientation="nosensor">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -85,7 +85,7 @@
         </activity>
 
         <activity
-            android:name="com.kessi.photopipcollagemaker.StartActivity"
+            android:name="com.mobiledevteam.qrtools.StartActivity"
             android:screenOrientation="nosensor"/>
 
         <meta-data

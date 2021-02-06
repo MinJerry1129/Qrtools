@@ -19,7 +19,7 @@ android {
     compileSdkVersion 29
     buildToolsVersion "29.0.2"
     defaultConfig {
-        applicationId "com.kessi.photopipcollagemaker"
+        applicationId "com.mobiledevteam.qrtools"
 
         manifestPlaceholders = [
                 onesignal_app_id : '64b25434-c793-4922-b7f4-a66efef26ba7',

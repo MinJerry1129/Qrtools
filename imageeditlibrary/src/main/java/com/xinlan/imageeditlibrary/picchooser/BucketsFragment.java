@@ -19,7 +19,7 @@ import android.widget.Toast;
 
 import androidx.fragment.app.Fragment;
 
-import com.kessi.imageeditlibrary.R;
+import com.mobiledevteam.imageeditlibrary.R;
 
 
 public class BucketsFragment extends Fragment {
