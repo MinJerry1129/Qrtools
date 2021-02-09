@@ -46,16 +46,16 @@ public class CreationActivity extends AppCompatActivity {
 
         LinearLayout adContainer = findViewById(R.id.banner_container);
 
-        if (!AdManager.isloadFbAd) {
-            //admob
-            AdManager.initAd(CreationActivity.this);
-            AdManager.loadBannerAd(CreationActivity.this, adContainer);
-            AdManager.loadInterAd(CreationActivity.this);
-        } else {
-            //Fb banner Ads
-            AdManager.fbBannerAd(CreationActivity.this, adContainer);
-            AdManager.loadFbInterAd(CreationActivity.this);
-        }
+//        if (!AdManager.isloadFbAd) {
+//            //admob
+//            AdManager.initAd(CreationActivity.this);
+//            AdManager.loadBannerAd(CreationActivity.this, adContainer);
+//            AdManager.loadInterAd(CreationActivity.this);
+//        } else {
+//            //Fb banner Ads
+//            AdManager.fbBannerAd(CreationActivity.this, adContainer);
+//            AdManager.loadFbInterAd(CreationActivity.this);
+//        }
     }
 
     @Override

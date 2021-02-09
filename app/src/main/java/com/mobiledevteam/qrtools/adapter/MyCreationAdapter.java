@@ -57,13 +57,13 @@ public class MyCreationAdapter extends RecyclerView.Adapter<MyCreationAdapter.My
                 intent.putExtra("path", mFile.getMediaUri().getAbsolutePath());
                 intent.putExtra("isCreation", true);
 
-                if (!AdManager.isloadFbAd) {
-                    AdManager.adCounter++;
-                    AdManager.showInterAd(context, intent,0);
-                } else {
-                    AdManager.adCounter++;
-                    AdManager.showFbInterAd(context, intent,0);
-                }
+//                if (!AdManager.isloadFbAd) {
+//                    AdManager.adCounter++;
+//                    AdManager.showInterAd(context, intent,0);
+//                } else {
+//                    AdManager.adCounter++;
+//                    AdManager.showFbInterAd(context, intent,0);
+//                }
             }
         });
     }

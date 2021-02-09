@@ -134,13 +134,13 @@ public class PIPActivity extends BaseTemplateDetailActivity implements PhotoLayo
     }
 
     void startActivityes(Intent intent, int requestCode) {
-        if (!AdManager.isloadFbAd) {
-            AdManager.adCounter++;
-            AdManager.showInterAd(PIPActivity.this, intent, requestCode);
-        } else {
-            AdManager.adCounter++;
-            AdManager.showFbInterAd(PIPActivity.this, intent, requestCode);
-        }
+//        if (!AdManager.isloadFbAd) {
+//            AdManager.adCounter++;
+//            AdManager.showInterAd(PIPActivity.this, intent, requestCode);
+//        } else {
+//            AdManager.adCounter++;
+//            AdManager.showFbInterAd(PIPActivity.this, intent, requestCode);
+//        }
     }
 
     void setUnpressBtn() {

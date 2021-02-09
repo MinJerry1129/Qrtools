@@ -124,14 +124,14 @@ public class AddTextItemActivity extends BaseFragmentActivity implements OnChoos
 
         LinearLayout adContainer = findViewById(R.id.banner_container);
 
-        if (!AdManager.isloadFbAd) {
-            //admob
-            AdManager.initAd(AddTextItemActivity.this);
-            AdManager.loadBannerAd(AddTextItemActivity.this, adContainer);
-        } else {
-            //Fb banner Ads
-            AdManager.fbBannerAd(AddTextItemActivity.this, adContainer);
-        }
+//        if (!AdManager.isloadFbAd) {
+//            //admob
+//            AdManager.initAd(AddTextItemActivity.this);
+//            AdManager.loadBannerAd(AddTextItemActivity.this, adContainer);
+//        } else {
+//            //Fb banner Ads
+//            AdManager.fbBannerAd(AddTextItemActivity.this, adContainer);
+//        }
     }
 
     @Override

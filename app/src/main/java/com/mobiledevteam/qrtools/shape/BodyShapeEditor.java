@@ -58,14 +58,14 @@ public class BodyShapeEditor extends AppCompatActivity implements OnClickListene
         findViewById(R.id.chest).setOnClickListener(this);
         findViewById(R.id.btnFace).setOnClickListener(this);
 
-        if (!AdManager.isloadFbAd) {
-            //admob
-            AdManager.initAd(BodyShapeEditor.this);
-            AdManager.loadInterAd(BodyShapeEditor.this);
-        } else {
-            //Fb banner Ads
-            AdManager.loadFbInterAd(BodyShapeEditor.this);
-        }
+//        if (!AdManager.isloadFbAd) {
+//            //admob
+//            AdManager.initAd(BodyShapeEditor.this);
+//            AdManager.loadInterAd(BodyShapeEditor.this);
+//        } else {
+//            //Fb banner Ads
+//            AdManager.loadFbInterAd(BodyShapeEditor.this);
+//        }
     }
 
     public void saveImage() {
@@ -112,13 +112,13 @@ public class BodyShapeEditor extends AppCompatActivity implements OnClickListene
                     intent.putExtra("path", file.getAbsolutePath());
                     intent.putExtra("isCreation", false);
 
-                    if (!AdManager.isloadFbAd) {
-                        AdManager.adCounter = 6;
-                        AdManager.showInterAd(BodyShapeEditor.this, intent,0);
-                    } else {
-                        AdManager.adCounter = 6;
-                        AdManager.showFbInterAd(BodyShapeEditor.this, intent,0);
-                    }
+//                    if (!AdManager.isloadFbAd) {
+//                        AdManager.adCounter = 6;
+//                        AdManager.showInterAd(BodyShapeEditor.this, intent,0);
+//                    } else {
+//                        AdManager.adCounter = 6;
+//                        AdManager.showFbInterAd(BodyShapeEditor.this, intent,0);
+//                    }
                     Toast.makeText(BodyShapeEditor.this, "Salvo com Sucesso....", Toast.LENGTH_LONG).show();
                 } else if (errMsg != null) {
                     Toast.makeText(BodyShapeEditor.this, errMsg, Toast.LENGTH_LONG).show();
@@ -162,13 +162,13 @@ public class BodyShapeEditor extends AppCompatActivity implements OnClickListene
     }
 
     void startActivityes(Intent intent, int requestCode) {
-        if (!AdManager.isloadFbAd) {
-            AdManager.adCounter++;
-            AdManager.showInterAd(BodyShapeEditor.this, intent, requestCode);
-        } else {
-            AdManager.adCounter++;
-            AdManager.showFbInterAd(BodyShapeEditor.this, intent, requestCode);
-        }
+//        if (!AdManager.isloadFbAd) {
+//            AdManager.adCounter++;
+//            AdManager.showInterAd(BodyShapeEditor.this, intent, requestCode);
+//        } else {
+//            AdManager.adCounter++;
+//            AdManager.showFbInterAd(BodyShapeEditor.this, intent, requestCode);
+//        }
     }
 
     private void startSlim() {

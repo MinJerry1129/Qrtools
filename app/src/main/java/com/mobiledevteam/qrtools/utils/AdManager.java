@@ -24,7 +24,7 @@ import com.mobiledevteam.qrtools.R;
 public class AdManager {
     public static int adCounter = 1;
 
-    public static boolean isloadFbAd = false;
+    public static boolean isloadFbAd = true;
 
 
     public static void initAd(Context context) {

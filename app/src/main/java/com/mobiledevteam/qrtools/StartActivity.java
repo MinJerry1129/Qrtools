@@ -95,14 +95,14 @@ public class StartActivity extends AppCompatActivity implements View.OnClickList
         shapeBtn = findViewById(R.id.shapeBtn);
         shapeBtn.setOnClickListener(this);
 
-        if (!AdManager.isloadFbAd) {
-            //admob
-            AdManager.initAd(StartActivity.this);
-            AdManager.loadInterAd(StartActivity.this);
-        } else {
-            //Fb banner Ads
-            AdManager.loadFbInterAd(StartActivity.this);
-        }
+//        if (!AdManager.isloadFbAd) {
+//            //admob
+//            AdManager.initAd(StartActivity.this);
+//            AdManager.loadInterAd(StartActivity.this);
+//        } else {
+//            //Fb banner Ads
+//            AdManager.loadFbInterAd(StartActivity.this);
+//        }
     }
 
     @Override
@@ -319,13 +319,13 @@ public class StartActivity extends AppCompatActivity implements View.OnClickList
         Intent intent = new Intent(StartActivity.this, ShareActivity.class);
         intent.putExtra("path", newFilePath);
         intent.putExtra("isCreation", false);
-        if (!AdManager.isloadFbAd) {
-            AdManager.adCounter = 6;
-            AdManager.showInterAd(StartActivity.this, intent,0);
-        } else {
-            AdManager.adCounter = 6;
-            AdManager.showFbInterAd(StartActivity.this, intent,0);
-        }
+//        if (!AdManager.isloadFbAd) {
+//            AdManager.adCounter = 6;
+//            AdManager.showInterAd(StartActivity.this, intent,0);
+//        } else {
+//            AdManager.adCounter = 6;
+//            AdManager.showFbInterAd(StartActivity.this, intent,0);
+//        }
         Toast.makeText(StartActivity.this, "Salvo com Sucesso...", Toast.LENGTH_LONG).show();
     }
 
@@ -386,13 +386,13 @@ public class StartActivity extends AppCompatActivity implements View.OnClickList
     }
 
     void startActivityes(Intent intent, int requestCode) {
-        if (!AdManager.isloadFbAd) {
-            AdManager.adCounter++;
-            AdManager.showInterAd(StartActivity.this, intent, requestCode);
-        } else {
-            AdManager.adCounter++;
-            AdManager.showFbInterAd(StartActivity.this, intent, requestCode);
-        }
+//        if (!AdManager.isloadFbAd) {
+//            AdManager.adCounter++;
+//            AdManager.showInterAd(StartActivity.this, intent, requestCode);
+//        } else {
+//            AdManager.adCounter++;
+//            AdManager.showFbInterAd(StartActivity.this, intent, requestCode);
+//        }
     }
 
     boolean doubleBackToExitPressedOnce = false;
