@@ -176,14 +176,14 @@ public abstract class BaseTemplateDetailActivity extends BasePhotoActivity imple
             mTemplateView.scrollToPosition(selectedItemIndex);
         }
 
-//        if (!AdManager.isloadFbAd) {
-//            //admob
-//            AdManager.initAd(BaseTemplateDetailActivity.this);
-//            AdManager.loadInterAd(BaseTemplateDetailActivity.this);
-//        } else {
-//            //Fb banner Ads
-//            AdManager.loadFbInterAd(BaseTemplateDetailActivity.this);
-//        }
+        if (!AdManager.isloadFbAd) {
+            //admob
+            AdManager.initAd(BaseTemplateDetailActivity.this);
+            AdManager.loadInterAd(BaseTemplateDetailActivity.this);
+        } else {
+            //Fb banner Ads
+            AdManager.loadFbInterAd(BaseTemplateDetailActivity.this);
+        }
     }
 
     @Override
@@ -424,13 +424,13 @@ public abstract class BaseTemplateDetailActivity extends BasePhotoActivity imple
                     intent.putExtra("path", file.getAbsolutePath());
                     intent.putExtra("isCreation", false);
 
-//                    if (!AdManager.isloadFbAd) {
-//                        AdManager.adCounter = 6;
-//                        AdManager.showInterAd(BaseTemplateDetailActivity.this, intent,0);
-//                    } else {
-//                        AdManager.adCounter = 6;
-//                        AdManager.showFbInterAd(BaseTemplateDetailActivity.this, intent,0);
-//                    }
+                    if (!AdManager.isloadFbAd) {
+                        AdManager.adCounter = 6;
+                        AdManager.showInterAd(BaseTemplateDetailActivity.this, intent,0);
+                    } else {
+                        AdManager.adCounter = 6;
+                        AdManager.showFbInterAd(BaseTemplateDetailActivity.this, intent,0);
+                    }
                     Toast.makeText(BaseTemplateDetailActivity.this, "Salvo com Sucesso...", Toast.LENGTH_LONG).show();
                 } else if (errMsg != null) {
                     Toast.makeText(BaseTemplateDetailActivity.this, errMsg, Toast.LENGTH_LONG).show();

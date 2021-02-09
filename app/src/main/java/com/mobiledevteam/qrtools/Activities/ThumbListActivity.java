@@ -118,16 +118,16 @@ public class ThumbListActivity extends BaseFragmentActivity implements TemplateV
 
         LinearLayout adContainer = findViewById(R.id.banner_container);
 
-//        if (!AdManager.isloadFbAd) {
-//            //admob
-//            AdManager.initAd(ThumbListActivity.this);
-//            AdManager.loadBannerAd(ThumbListActivity.this, adContainer);
-//            AdManager.loadInterAd(ThumbListActivity.this);
-//        } else {
-//            //Fb banner Ads
-//            AdManager.fbBannerAd(ThumbListActivity.this, adContainer);
-//            AdManager.loadFbInterAd(ThumbListActivity.this);
-//        }
+        if (!AdManager.isloadFbAd) {
+            //admob
+            AdManager.initAd(ThumbListActivity.this);
+            AdManager.loadBannerAd(ThumbListActivity.this, adContainer);
+            AdManager.loadInterAd(ThumbListActivity.this);
+        } else {
+            //Fb banner Ads
+            AdManager.fbBannerAd(ThumbListActivity.this, adContainer);
+            AdManager.loadFbInterAd(ThumbListActivity.this);
+        }
     }
 
 
@@ -263,12 +263,12 @@ public class ThumbListActivity extends BaseFragmentActivity implements TemplateV
     }
 
     void startActivityes(Intent intent, int requestCode) {
-//        if (!AdManager.isloadFbAd) {
-//            AdManager.adCounter++;
-//            AdManager.showInterAd(ThumbListActivity.this, intent, requestCode);
-//        } else {
-//            AdManager.adCounter++;
-//            AdManager.showFbInterAd(ThumbListActivity.this, intent, requestCode);
-//        }
+        if (!AdManager.isloadFbAd) {
+            AdManager.adCounter++;
+            AdManager.showInterAd(ThumbListActivity.this, intent, requestCode);
+        } else {
+            AdManager.adCounter++;
+            AdManager.showFbInterAd(ThumbListActivity.this, intent, requestCode);
+        }
     }
 }

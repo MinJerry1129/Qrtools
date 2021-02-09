@@ -257,13 +257,13 @@ public class CollageMakerlActivity extends BaseTemplateDetailActivity implements
     }
 
     void startActivityes(Intent intent, int requestCode) {
-//        if (!AdManager.isloadFbAd) {
-//            AdManager.adCounter++;
-//            AdManager.showInterAd(CollageMakerlActivity.this, intent, requestCode);
-//        } else {
-//            AdManager.adCounter++;
-//            AdManager.showFbInterAd(CollageMakerlActivity.this, intent, requestCode);
-//        }
+        if (!AdManager.isloadFbAd) {
+            AdManager.adCounter++;
+            AdManager.showInterAd(CollageMakerlActivity.this, intent, requestCode);
+        } else {
+            AdManager.adCounter++;
+            AdManager.showFbInterAd(CollageMakerlActivity.this, intent, requestCode);
+        }
     }
 
     void setUnpressBtn(){

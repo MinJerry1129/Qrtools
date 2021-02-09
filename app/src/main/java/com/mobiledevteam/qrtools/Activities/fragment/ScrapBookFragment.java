@@ -328,14 +328,14 @@ public class ScrapBookFragment extends BaseFragment implements
             }
         });
 
-//        if (!AdManager.isloadFbAd) {
-//            //admob
-//            AdManager.initAd(getActivity());
-//            AdManager.loadInterAd(getActivity());
-//        } else {
-//            //Fb banner Ads
-//            AdManager.loadFbInterAd(getActivity());
-//        }
+        if (!AdManager.isloadFbAd) {
+            //admob
+            AdManager.initAd(getActivity());
+            AdManager.loadInterAd(getActivity());
+        } else {
+            //Fb banner Ads
+            AdManager.loadFbInterAd(getActivity());
+        }
         return rootView;
     }
 
@@ -346,13 +346,13 @@ public class ScrapBookFragment extends BaseFragment implements
     }
 
     void startActivityes(Intent intent, int requestCode) {
-//        if (!AdManager.isloadFbAd) {
-//            AdManager.adCounter++;
-//            AdManager.showInterAd(getActivity(), intent, requestCode);
-//        } else {
-//            AdManager.adCounter++;
-//            AdManager.showFbInterAd(getActivity(), intent, requestCode);
-//        }
+        if (!AdManager.isloadFbAd) {
+            AdManager.adCounter++;
+            AdManager.showInterAd(getActivity(), intent, requestCode);
+        } else {
+            AdManager.adCounter++;
+            AdManager.showFbInterAd(getActivity(), intent, requestCode);
+        }
     }
 
     void setUnpressBtn(View view) {
@@ -664,13 +664,13 @@ public class ScrapBookFragment extends BaseFragment implements
                     intent.putExtra("path", file.getAbsolutePath());
                     intent.putExtra("isCreation", false);
 
-//                    if (!AdManager.isloadFbAd) {
-//                        AdManager.adCounter = 6;
-//                        AdManager.showInterAd(getActivity(), intent,0);
-//                    } else {
-//                        AdManager.adCounter = 6;
-//                        AdManager.showFbInterAd(getActivity(), intent,0);
-//                    }
+                    if (!AdManager.isloadFbAd) {
+                        AdManager.adCounter = 6;
+                        AdManager.showInterAd(getActivity(), intent,0);
+                    } else {
+                        AdManager.adCounter = 6;
+                        AdManager.showFbInterAd(getActivity(), intent,0);
+                    }
                     Toast.makeText(mActivity, "Salvo com Sucesso....", Toast.LENGTH_LONG).show();
                 } else if (errMsg != null) {
                     Toast.makeText(mActivity, errMsg, Toast.LENGTH_LONG).show();

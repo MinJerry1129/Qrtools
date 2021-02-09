@@ -44,16 +44,16 @@ public class ShareActivity extends AppCompatActivity implements View.OnClickList
 
         LinearLayout adContainer = findViewById(R.id.banner_container);
 
-//        if (!AdManager.isloadFbAd) {
-//            //admob
-//            AdManager.initAd(ShareActivity.this);
-//            AdManager.adptiveBannerAd(ShareActivity.this, adContainer);
-//            AdManager.loadInterAd(ShareActivity.this);
-//        } else {
-//            //Fb banner Ads
-//            AdManager.fbAdaptiveBannerAd(ShareActivity.this, adContainer);
-//            AdManager.loadFbInterAd(ShareActivity.this);
-//        }
+        if (!AdManager.isloadFbAd) {
+            //admob
+            AdManager.initAd(ShareActivity.this);
+            AdManager.adptiveBannerAd(ShareActivity.this, adContainer);
+            AdManager.loadInterAd(ShareActivity.this);
+        } else {
+            //Fb banner Ads
+            AdManager.fbAdaptiveBannerAd(ShareActivity.this, adContainer);
+            AdManager.loadFbInterAd(ShareActivity.this);
+        }
     }
 
     @Override
@@ -73,24 +73,24 @@ public class ShareActivity extends AppCompatActivity implements View.OnClickList
                 break;
 
             case R.id.btnShare:
-//                if (!AdManager.isloadFbAd) {
-//                    AdManager.adCounter++;
-//                    AdManager.showInterAd(ShareActivity.this, null,0);
-//                } else {
-//                    AdManager.adCounter++;
-//                    AdManager.showFbInterAd(ShareActivity.this, null,0);
-//                }
+                if (!AdManager.isloadFbAd) {
+                    AdManager.adCounter++;
+                    AdManager.showInterAd(ShareActivity.this, null,0);
+                } else {
+                    AdManager.adCounter++;
+                    AdManager.showFbInterAd(ShareActivity.this, null,0);
+                }
                 Utils.mShare(path, ShareActivity.this);
                 break;
 
             case R.id.btnDelete:
-//                if (!AdManager.isloadFbAd) {
-//                    AdManager.adCounter++;
-//                    AdManager.showInterAd(ShareActivity.this, null,0);
-//                } else {
-//                    AdManager.adCounter++;
-//                    AdManager.showFbInterAd(ShareActivity.this, null,0);
-//                }
+                if (!AdManager.isloadFbAd) {
+                    AdManager.adCounter++;
+                    AdManager.showInterAd(ShareActivity.this, null,0);
+                } else {
+                    AdManager.adCounter++;
+                    AdManager.showFbInterAd(ShareActivity.this, null,0);
+                }
                 mDelete(file);
                 break;
         }

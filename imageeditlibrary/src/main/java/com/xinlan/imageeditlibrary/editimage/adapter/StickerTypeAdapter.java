@@ -15,9 +15,9 @@ import com.xinlan.imageeditlibrary.editimage.fragment.StickerFragment;
 
 
 public class StickerTypeAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
-    public static final String[] stickerPath = {"stickers/type1", "stickers/type2", "stickers/type3", "stickers/type4", "stickers/type5", "stickers/type6"};
-    public static final String[] stickerPathName = {"Love", "Heart", "Romantic", "Couple", "Quote", "B'Day"};
-    int[] typeIcon = {R.drawable.love, R.drawable.heart, R.drawable.romentic, R.drawable.couple, R.drawable.quotes, R.drawable.b_day};
+    public static final String[] stickerPath = {"stickers/type1", "stickers/type2", "stickers/type3", "stickers/type4"};
+    public static final String[] stickerPathName = {"Love", "Heart", "Romantic", "Couple"};
+    int[] typeIcon = {R.drawable.love, R.drawable.heart, R.drawable.romentic, R.drawable.couple};
     private StickerFragment mStickerFragment;
     private ImageClick mImageClick = new ImageClick();
 

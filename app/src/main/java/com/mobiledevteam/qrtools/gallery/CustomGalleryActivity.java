@@ -246,14 +246,14 @@ public class CustomGalleryActivity extends AppCompatActivity implements
         updateTxtTotalImage();
 
         LinearLayout adContainer = findViewById(R.id.banner_container);
-//        if (!AdManager.isloadFbAd) {
-//            //admob
-//            AdManager.initAd(CustomGalleryActivity.this);
-//            AdManager.loadBannerAd(CustomGalleryActivity.this, adContainer);
-//        } else {
-//            //Fb banner Ads
-//            AdManager.fbBannerAd(CustomGalleryActivity.this, adContainer);
-//        }
+        if (!AdManager.isloadFbAd) {
+            //admob
+            AdManager.initAd(CustomGalleryActivity.this);
+            AdManager.loadBannerAd(CustomGalleryActivity.this, adContainer);
+        } else {
+            //Fb banner Ads
+            AdManager.fbBannerAd(CustomGalleryActivity.this, adContainer);
+        }
     }
 
     @Override
