@@ -326,7 +326,7 @@ public class StartActivity extends AppCompatActivity implements View.OnClickList
             AdManager.adCounter = 6;
             AdManager.showFbInterAd(StartActivity.this, intent,0);
         }
-        Toast.makeText(StartActivity.this, "Saved Successfully...", Toast.LENGTH_LONG).show();
+        Toast.makeText(StartActivity.this, "Salvo com Sucesso...", Toast.LENGTH_LONG).show();
     }
 
     public void collageMaker() {

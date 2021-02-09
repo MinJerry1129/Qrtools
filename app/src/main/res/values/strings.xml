@@ -8,11 +8,11 @@
     <string name="horizontal">Horizontal</string>
     <string name="vertical">Vertical</string>
     <string name="instructions">Drag or stretch photos</string>
-    <string name="share">Share</string>
+    <string name="share">Compartilhe</string>
     <string name="Add">Add</string>
     <string name="select_frame_guide">Select the picture you want to use</string>
     <string name="create_frame_guide">Double-tap to view more options</string>
-    <string name="select_frame">Select frame</string>
+    <string name="select_frame">Selecione o Estilo</string>
     <string name="create_frame">Create frame</string>
     <string name="photocollage">Photo</string>
     <string name="select">Select</string>
@@ -55,10 +55,10 @@
     <string name="home">Home</string>
     <string name="album">Album</string>
     <string name="store">Store</string>
-    <string name="text">Enter Your Text</string>
+    <string name="text">Coloque se u Texto</string>
     <string name="guide_add_text_item">Click on left button to select color. Click right button to select font.</string>
     <string name="create_text_item">Create text item</string>
-    <string name="default_font">Default Font</string>
+    <string name="default_font">Estilo de Fonte</string>
     <string name="loading">Loading...</string>
     <string name="background">Background</string>
     <string name="sort_by_time">Sort by time</string>
@@ -89,8 +89,8 @@
     <string name="permission_denied_and_guide_to_setting">Permission denied! Please enable all permission</string>
     <string name="all">All</string>
     <string name="background_color">Background Color</string>
-    <string name="select_text_color">Select text color</string>
-    <string name="text_font">Select font style</string>
+    <string name="select_text_color">Cor do Texto</string>
+    <string name="text_font">Estilo da fonte</string>
     <string name="creating">Creating...</string>
     <string name="golden_ratio">Golden Ratio</string>
     <string name="photo_editor_square">Square</string>
@@ -104,27 +104,27 @@
     <string name="app_not_found">App not found</string>
     <string name="guide_list_view_settings">Swipe to left on list view to get more actions</string>
     <string name="get_pro">Remove Ads</string>
-    <string name="text_images">Selected %1$d</string>
+    <string name="text_images">Selecionado %1$d</string>
 
-    <string name="photo_collage">Photo Collage</string>
+    <string name="photo_collage">Colagem</string>
     <string name="photo_editor">Photo Editor</string>
-    <string name="pip_collage">PIP Collage</string>
+    <string name="pip_collage">PIP Colagem</string>
     <string name="scrap_book">Scrap Book</string>
     <string name="my_creation">My Creation</string>
     <string name="layout">Layout</string>
-    <string name="adjust">Adjust</string>
-    <string name="bg_color">Bg Color</string>
-    <string name="photo_collage_header">Photo Collage</string>
+    <string name="adjust">Ajuste</string>
+    <string name="bg_color">Cor Fundo</string>
+    <string name="photo_collage_header">Colagem</string>
     <string name="str_sticker">Sticker</string>
     <string name="str_text">Text</string>
-    <string name="str_pip_collage">PIP Collage</string>
+    <string name="str_pip_collage">PIP Colagem</string>
     <string name="title_select_frame">Select Frame</string>
 
     <string name="body_shape">Body Shape</string>
     <string name="make_me_slim">Make Me Slim</string>
     <string name="slim">Slim</string>
-    <string name="waist">Waist</string>
-    <string name="hip">Hip</string>
+    <string name="waist">Cintura</string>
+    <string name="hip">Quadril</string>
 
     <!--admob ids-->
     <string name="admob_app_id">ca-app-pub-3940256099942544~3347511713</string>
@@ -134,8 +134,8 @@
     <!--fb ad ids-->
     <string name="fbad_banner_id">507756103514204_507756633514151</string>
     <string name="fbad_interstitial_id">507756103514204_507758393513975</string>
-    <string name="chest">Chest</string>
-    <string name="face">Face</string>
+    <string name="chest">Peito</string>
+    <string name="face">Rosto</string>
 
 
 </resources>

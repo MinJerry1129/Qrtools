@@ -671,7 +671,7 @@ public class ScrapBookFragment extends BaseFragment implements
                         AdManager.adCounter = 6;
                         AdManager.showFbInterAd(getActivity(), intent,0);
                     }
-                    Toast.makeText(mActivity, "Saved Successfully....", Toast.LENGTH_LONG).show();
+                    Toast.makeText(mActivity, "Salvo com Sucesso....", Toast.LENGTH_LONG).show();
                 } else if (errMsg != null) {
                     Toast.makeText(mActivity, errMsg, Toast.LENGTH_LONG).show();
                 }

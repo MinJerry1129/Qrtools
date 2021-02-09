@@ -119,7 +119,7 @@ public class BodyShapeEditor extends AppCompatActivity implements OnClickListene
                         AdManager.adCounter = 6;
                         AdManager.showFbInterAd(BodyShapeEditor.this, intent,0);
                     }
-                    Toast.makeText(BodyShapeEditor.this, "Saved Successfully....", Toast.LENGTH_LONG).show();
+                    Toast.makeText(BodyShapeEditor.this, "Salvo com Sucesso....", Toast.LENGTH_LONG).show();
                 } else if (errMsg != null) {
                     Toast.makeText(BodyShapeEditor.this, errMsg, Toast.LENGTH_LONG).show();
                 }

@@ -431,7 +431,7 @@ public abstract class BaseTemplateDetailActivity extends BasePhotoActivity imple
                         AdManager.adCounter = 6;
                         AdManager.showFbInterAd(BaseTemplateDetailActivity.this, intent,0);
                     }
-                    Toast.makeText(BaseTemplateDetailActivity.this, "Saved Successfully...", Toast.LENGTH_LONG).show();
+                    Toast.makeText(BaseTemplateDetailActivity.this, "Salvo com Sucesso...", Toast.LENGTH_LONG).show();
                 } else if (errMsg != null) {
                     Toast.makeText(BaseTemplateDetailActivity.this, errMsg, Toast.LENGTH_LONG).show();
                 }

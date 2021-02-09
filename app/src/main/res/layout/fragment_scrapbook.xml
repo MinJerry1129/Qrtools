@@ -100,7 +100,7 @@
                 android:id="@+id/tabTxt"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Images"
+                android:text="Imagens"
                 android:textColor="#fff"
                 android:textSize="@dimen/_9sdp" />
         </LinearLayout>

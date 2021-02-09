@@ -24,7 +24,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
-            android:text="PIP Collage"
+            android:text="PIP Colagem"
             android:textColor="@color/header_text_color"
             android:textSize="@dimen/_14sdp" />
 
